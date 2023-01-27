@@ -1,0 +1,15 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/Main.js -d dist && babel src/modules -d dist/modules",
+    "start": "npm run build && node dist/Main.js"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
